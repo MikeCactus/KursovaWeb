@@ -1,0 +1,45 @@
+
+.faq_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 157.6px); 
+  gap: 4px;
+}
+.container{
+   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.text{
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+ width: 50vw;
+  font-size: 80px;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+}
+@media screen and (max-width: 1000px) {
+  .text{
+     font-size: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+ .text{
+  font-size: 40px;
+ }
+}
+
+@media screen and (max-width: 400px) {
+  .text{
+     font-size: 30px;
+    }
+}

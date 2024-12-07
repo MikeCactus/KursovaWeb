@@ -1,0 +1,28 @@
+[
+
+    {   "header":"Sign  up",
+        "name":"Enter Name", 
+        "email" : "Enter Email",
+        "password" : "Enter Password",
+        "phone" :"Enter Phone",
+        "button" :" sign up  as admin",
+        "in":true
+    },
+    {   
+        "header" : "Sign in",
+        "email" : "Enter Email",
+        "password" : "Enter Password",
+        "button"  : "sign in as admin ",
+        "up":false
+    },
+    {   
+        "header":"Add Event",
+        "Event":"enter Name of Event",
+        "date" : "enter date of Event",
+        "place" : "enter place of Event",
+        "description" : "enter some description of event",
+        "button":"add event",
+        "another":true
+
+    }
+]

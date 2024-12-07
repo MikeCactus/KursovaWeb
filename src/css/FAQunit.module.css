@@ -1,0 +1,131 @@
+.button_text {
+  padding: 5px;
+  margin-right: auto;
+  font-size: 25px;
+  font-family: "Arimo", sans-serif;
+  writing-mode: horizontal-tb;
+}
+
+.faq_btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  width: 50vw;
+  height:40px;
+}
+.faq_btn_pressed {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  width: 50vw;
+  border-radius: 15px 15px 0 0;
+  height:40px;
+}
+
+.faq_btn:active {
+  background-color: #c6c6c6;
+  cursor: pointer;
+}
+.faq_btn_pressed:active {
+  background-color: #c6c6c6;
+  cursor: pointer;
+}
+
+.answer_text {
+  
+  font-family: "Arimo", sans-serif;
+  display: flex;
+  position: relative;
+  font-size: 25px;
+ 
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  border: none;
+  width: calc(50vw - 40px);
+  padding: 20px;
+  opacity: 0; /* initially hide the answer */
+  max-height: 0; /* Initially set max-height to 0 */
+  overflow: hidden; /* Hide any overflow content */
+  transition: opacity 0.5s ease, max-height 0.5s ease; /* Add max-height transition */
+}
+
+.answer_text.show {
+  opacity: 1; /* Show the answer with transition effect */
+}
+
+.answer_text.show {
+  opacity: 1; /* show the answer with transition effect */
+}
+.button_image {
+  margin-right: 5px;
+  height: 2vw;
+  width: 2vw;
+}
+
+@media screen and (max-width: 700px) {
+  .button_text {
+    padding: 3px;
+    font-size: 1.5em;
+  }
+  .button_image {
+    margin-right: 3px;
+    height: 3vw;
+    width: 3vw;
+  }
+  .faq_btn {
+    width: 50vw;
+  }
+  .faq_btn_pressed {
+    width: 50vw;
+  }
+  .answer_text {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .button_text {
+    padding: 3px;
+    font-size: 1.5em;
+  }
+  .button_image {
+    margin-right: 2px;
+    height: 4vw;
+    width: 4vw;
+  }
+  .faq_btn {
+    width: 50vw;
+  }
+  .faq_btn_pressed {
+    width: 50vw;
+  }
+  .answer_text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .button_text {
+    padding: 1px;
+    font-size: 18px;
+  }
+
+  .faq_btn {
+    width: 50vw;
+  }
+  .faq_btn_pressed {
+    width: 50vw;
+  }
+  .answer_text {
+    font-size: 15px;
+  }
+}

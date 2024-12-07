@@ -1,0 +1,39 @@
+.h1-Cities {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+li{
+    text-align: center;
+}
+.ul-cities {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 100px;
+    gap: 25px;
+    text-align: justify;
+}
+
+.li-cities {
+    position: relative;
+    text-align: justify;
+    height: 30px;
+}
+
+.hover-line {
+    display: block;
+    width: 0px;
+    height: 3px; /* Встановлюємо початкову висоту */
+    background-color: rgb(10, 202, 138);
+    border-radius: 20px;
+    transition:  all 0.5s ease;
+    margin: auto;
+}
+
+.li-cities:hover .hover-line {
+    transform: scaleY(1); /* Масштаб до повної висоти при наведенні */
+    width: 100%;
+}

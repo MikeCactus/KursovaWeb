@@ -1,0 +1,41 @@
+.containerGalery  {
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    background-color: white;
+    width: 100%;
+}
+
+.picture {
+    /* border: 2px solid black; */
+    padding: 25px;    
+    /* box-shadow: 2px 2px 10px 10px  black inset; */
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.picture img  {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.rotate  {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:600;
+    text-align: center;
+    width: 50px;
+    height: 100%;
+    color: white;
+    background-color: blue;
+}
+
+
+span {
+font-family: 20px;
+writing-mode: vertical-rl; 
+padding-top: 10px;
+color: white;
+}

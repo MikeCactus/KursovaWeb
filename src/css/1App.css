@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  font-family: "Josefin Sans", sans-serif;   
+}
+body{
+  height: 100vh;
+  background-image: url('../assets/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.darkMode{
+  position:relative ;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  gap: 5px;
+
+}
+
+
+.Blog {
+
+  width: 90%;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+
+}
+
+.medTalk {
+
+  display: block;
+  margin-top: 30px;
+  width: 99%;
+  height: 650px;  
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.right-block{
+
+  background-color: white;
+  /* border-radius: 20px;      */
+  height: 97vh;
+  width: 690px;   
+  align-self: center;
+
+}
+
+.nav-panel{
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin:0px;
+  height: 40px;
+  color: black;
+  /* border-bottom: 2px solid black; */
+  padding: 0px;
+}
+
+.ul-nav-panel {
+
+  display: flex;
+  justify-content: right;
+  color: white;
+  list-style-type: none;
+  font-family: "Permanent Marker", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  padding: 0px;
+  width: 98%;
+}
+
+.li-nav-panel{
+
+  width: 105px;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+
+}
+

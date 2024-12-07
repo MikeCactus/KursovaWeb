@@ -1,0 +1,110 @@
+.darkWindow {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    z-index: 2;
+
+}
+
+.regisrateField{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: 0px 0px 40px 5px rgb(4, 249, 245);
+}
+
+input {
+    width: 80%;
+    margin: 0 auto;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid white ;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.addEvent {
+    align-self: center;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    width: 80%;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 5px rgb(4, 249, 245);
+    
+}
+
+.exitImg{
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    right: 300px;
+    width: 50px;
+    height: 50px;
+}
+
+.addEvents{
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.ulAddEventListName {
+    
+    list-style-type: none;
+    padding:  0px;
+    margin: 0px;
+    display:  flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Josefin Sans", serif;
+    font-weight: 500;
+    color: black;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 20px;
+    /* width: 100%!important; */
+    
+}
+.addEventList{
+    text-align: left;
+    width: 100%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding-left:40px ;
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    
+
+}
